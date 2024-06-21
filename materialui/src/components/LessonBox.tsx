@@ -1,23 +1,24 @@
-import React from 'react'
-import Box from '@mui/material/Box';
+import React from "react";
+import Box from "@mui/material/Box";
 
 const LessonBox = () => {
   return (
-<Box 
-sx={{
-    backgroundColor:"primary.main",
-    width:"100px",
-    height:"100px",
-    color:"white",
-    padding:"20px",
-    "&:hover":{
-        backgroundColor:"primary.light",
-        cursor:"pointer"
-    }
-}}>
-    LessonBox
-</Box>
-  )
-}
+    <Box
+      sx={{
+        backgroundColor: "primary.main",
+        width: "100px",
+        height: "100px",
+        color: "white",
+        padding: "20px",
+        "&:hover": {
+          backgroundColor: "primary.light",
+          cursor: "pointer",
+        },
+      }}
+    >
+      LessonBox
+    </Box>
+  );
+};
 
-export default LessonBox
+export default LessonBox;
