@@ -13,7 +13,7 @@ const CardLesson = () => {
         component="img"
         alt="green iguana"
         height="140"
-        image="https://unsplash.com/s/photos/random-photo"
+        image="https://unsplash.com/photos/random"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
