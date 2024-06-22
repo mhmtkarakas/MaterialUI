@@ -14,6 +14,7 @@ import LessonBox from './components/LessonBox';
 import LessonStack from "./components/LessonStack";
 import LessonCard from "./components/LessonCard";
 import LessonAccordions from "./components/LessonAccordion";
+import { LessonAppbar } from "./components/LessonAppbar";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <LessonBox /> */}
       {/* <LessonStack /> */}
       {/* <LessonCard /> */}
-      <LessonAccordions />
+      {/* <LessonAccordions /> */}
+      <LessonAppbar />
     </div>
   );
 }
