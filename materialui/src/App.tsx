@@ -21,6 +21,7 @@ import { LessonLink } from "./components/LessonLink";
 import { LessonBreadCrumb } from "./components/LessonBreadCrumb";
 import { LessonBadge } from "./components/LessonBadge";
 import { LessonSpeedDial } from "./components/LessonSpeedDial";
+import { LessonBottomNavigation } from "./components/LessonBottomNavigation";
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <LessonBreadCrumb /> */}
       {/* <LessonBreadCrumb /> */}
       {/* <LessonBadge /> */}
-      <LessonSpeedDial />
+      {/* <LessonSpeedDial /> */}
+      <LessonBottomNavigation />
     </div>
   );
 }
