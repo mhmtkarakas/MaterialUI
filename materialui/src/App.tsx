@@ -19,6 +19,7 @@ import { LessonImageList } from "./components/LessonImageList";
 import { LesssonPaper } from "./components/LesssonPaper";
 import { LessonLink } from "./components/LessonLink";
 import { LessonBreadCrumb } from "./components/LessonBreadCrumb";
+import { LessonBadge } from "./components/LessonBadge";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       {/* <LessonLink /> */}
       {/* <LessonBreadCrumb /> */}
       {/* <LessonBreadCrumb /> */}
+      <LessonBadge />
     </div>
   );
 }
