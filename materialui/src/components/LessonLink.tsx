@@ -21,16 +21,8 @@ export const LessonLink = () => {
       <Link href="https://www.canboz.com/" underline="always">
         webisteme git
       </Link>
-
-      <Link
-        href="https://www.canboz.com/"
-        component="button"
-        onClick={() => {
-          console.log('Can');
-        }}
-      >
-        webisteme git
-      </Link>
+ 
+    
     </Box>
   );
 };
