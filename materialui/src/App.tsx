@@ -28,6 +28,7 @@ import { LessonToolTip } from "./components/LessonToolTip";
 import { LessonAlert } from "./components/LessonAlert";
 import { LessonDialog } from './components/LessonDialog';
 import { LessonSnackbar } from "./components/LessonSnackbar";
+import { LessonProgress } from './components/LessonProgress';
 
 function App() {
   return (
@@ -59,7 +60,8 @@ function App() {
       {/* <LessonToolTip /> */}
       {/* <LessonAlert /> */}
       {/* <LessonDialog /> */}
-      <LessonSnackbar />
+      {/* <LessonSnackbar /> */}
+      <LessonProgress />
     </div>
   );
 }
