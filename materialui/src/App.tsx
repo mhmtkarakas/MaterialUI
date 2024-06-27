@@ -32,9 +32,10 @@ import { LessonProgress } from './components/LessonProgress';
 import { LessonSkeleton } from './components/LessonSkeleton';
 import { LessonLoadingButton } from "./components/LessonLoadingButton";
 import { LessonTable } from './components/LessonTable';
-import { LessonDateTime } from "./components/LessonDateTime";
-import { LessonDateRange } from "./components/LessonDateRange";
+// import { LessonDateTime } from "./components/LessonDateTime";
+// import { LessonDateRange } from "./components/LessonDateRange";
 import { LessonTabs } from "./components/LessonTabs";
+import { LessonMasonry } from './components/LessonMasonry';
 
 function App() {
   return (
@@ -73,7 +74,8 @@ function App() {
       {/* <LessonTable /> */}
       {/* <LessonDateTime /> */}
       {/* <LessonDateRange /> */}
-      <LessonTabs />
+      {/* <LessonTabs /> */}
+      <LessonMasonry />
     </div>
   );
 }
