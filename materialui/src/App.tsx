@@ -36,6 +36,7 @@ import { LessonTable } from './components/LessonTable';
 // import { LessonDateRange } from "./components/LessonDateRange";
 import { LessonTabs } from "./components/LessonTabs";
 import { LessonMasonry } from './components/LessonMasonry';
+import { LessonTimeLine } from "./components/LessonTimeLine";
 
 function App() {
   return (
@@ -75,7 +76,8 @@ function App() {
       {/* <LessonDateTime /> */}
       {/* <LessonDateRange /> */}
       {/* <LessonTabs /> */}
-      <LessonMasonry />
+      {/* <LessonMasonry /> */}
+      <LessonTimeLine />
     </div>
   );
 }
